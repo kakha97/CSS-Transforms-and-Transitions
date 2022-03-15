@@ -79,6 +79,11 @@ section {
     transition: all 1s linear;
     transform-origin: left bottom;
 }
+
+.rd-button:hover {
+    transform: rotateZ(10deg);
+}
+
 .background-2 {
     height: 666px;
     background-image: url(../assets/background2.png);
@@ -101,14 +106,18 @@ section {
     border-radius: 50%;
     margin: 35px auto;
     transition: all 0.5s ease;
-}
-.symbol {
-    border: 0px;
-    background-color: #39C2D7;
     color: var(--lettercolor);
     font-size: 60px;
     transition: all 0.5s ease;
+
 }
+
+.symbol-container:hover{
+    background-color: white;
+    color: #39C2D7;
+    transform: scale(0.9);
+}
+
 .background-2-h3 {
     color: var(--lettercolor);
     font-family: var(--SansProfont);
@@ -183,20 +192,6 @@ footer {
 
 .bg-logo:hover {
     transform: rotateY(180deg) scale(1.3);
-}
-
-.rd-button:hover {
-    transform: rotateZ(10deg);
-}
-
-.symbol-container:hover {
-    background-color: white;
-    transform: scale(0.9);
-}
-
-.symbol:hover {
-    background-color: white;
-    color: #39C2D7;
 }
 
 
